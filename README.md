@@ -1,31 +1,32 @@
-Diabetes Prediction Model
-This repository contains code for building a machine learning model to predict diabetes based on various health parameters. The model is trained on the diabetes.csv dataset.
+# Diabetes Prediction using Support Vector Machine (SVM)
 
-Dataset
-The dataset used for this project is diabetes.csv, which contains information about several health parameters for individuals, including their diabetes status.
+## Overview
+This Python script utilizes Support Vector Machine (SVM) algorithm to predict diabetes based on certain medical attributes. The dataset used in this script contains information about patients, including features like glucose level, blood pressure, insulin level, age, etc.
 
-Requirements
-Python 3
-Libraries: numpy, pandas, scikit-learn
-Usage
-Clone this repository to your local machine.
-Ensure you have the required libraries installed.
-Run the Python script diabetes_prediction.py.
-The script will load the dataset, preprocess it, train a Support Vector Machine (SVM) model, and evaluate its performance.
-Finally, the script will provide predictions for a sample input.
-Code Structure
-diabetes_prediction.py: Main Python script containing the code for data loading, preprocessing, model training, evaluation, and prediction.
-diabetes.csv: Dataset file containing the health parameters and diabetes status.
-README.md: This file providing an overview of the project and instructions for usage.
-Running the Code
-To run the code, execute the following command in your terminal:
+## Instructions
+1. **Installation**: Make sure you have Python installed on your system. You can install the required libraries using pip:
+    ```
+    pip install numpy pandas scikit-learn
+    ```
+2. **Dataset**: The dataset used in this script is stored in a CSV file named `diabetes.csv`. Make sure this file is located in the same directory as the script or specify the correct file path.
 
-bash
-Copy code
-python diabetes_prediction.py
-Model Evaluation
-The model's accuracy is evaluated using both training and test datasets. The accuracy scores are printed to the console.
+3. **Code Execution**: Run the script in a Python environment. It will load the dataset, preprocess the data, train an SVM model, and then predict whether a person is diabetic or not based on the input data.
 
-Prediction
-The script provides an example of how to make predictions using the trained model. You can modify the input parameters to make predictions for different individuals.
+4. **Output**: The script will output the accuracy scores for both the training and test datasets. Additionally, it will make a prediction based on the input data provided at the end of the script.
+
+## Dependencies
+- Python 3.x
+- NumPy
+- Pandas
+- scikit-learn
+
+## Usage
+- `diabetes.csv`: Dataset containing medical information of patients.
+- `diabetes_head_tail.ipynb`: Jupyter Notebook containing the code for data loading, preprocessing, model training, and prediction.
+- `README.md`: This file providing information about the project.
+
+## Contributors
+- [Your Name]
+
+Feel free to contribute to the project by improving the code, providing suggestions, or adding new features.
 
