@@ -26,7 +26,7 @@ This Python script utilizes Support Vector Machine (SVM) algorithm to predict di
 - `README.md`: This file providing information about the project.
 
 ## Contributors
-- [Your Name]
+- [Omar Ashor]
 
-Feel free to contribute to the project by improving the code, providing suggestions, or adding new features.
+
 
